@@ -4,3 +4,5 @@ git status ->
 git add *
 git commit -m "push ex1"
 git push origin master
+
+test

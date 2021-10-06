@@ -1,0 +1,62 @@
+*{
+    padding: 0; 
+    margin: 0;
+}
+
+.alert{
+    padding: 20px 40px;
+    position: absolute;
+    right: 10px;
+    border-radius: 4px;
+}
+
+.alert-primary{
+    top: 10px;
+    background-color: #ffdb9b;
+}
+
+.alert-secondary{
+    top: 110px;
+    background-color: aquamarine;
+}
+
+.alert-3{
+    top: 210px;
+    background-color: brown;
+}
+
+.alert-success{
+    top:310px;
+    background-color:lightgreen;
+    color:mediumseagreen;
+}
+
+.alert-heading{
+    font-size: larger;
+    font-family: bold;
+}
+
+.span-1{
+    color: chartreuse;
+}
+
+.span-2{
+    color: chocolate;
+}
+
+.span-3{
+    color:darkgray;
+}
+
+.bg-1{
+    background-color: darkgray;
+}
+
+.bg-2{
+    background-color: darkslategray;
+}
+
+.badge{
+    padding: 5px 10px;
+    border-radius: 4px;
+}
