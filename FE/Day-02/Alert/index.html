@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/app.css">
+</head>
+<body>
+    <div>
+        <h2 class="title"></h2>
+        <p>lorem</p>
+        <hr>
+        <p>abc</p>
+    </div>
+    <i class="fas fa-home"></i>
+
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+    </ul>
+
+<div class="container">
+    <div class="alert alert-1">
+         Alert
+    </div>
+</div>
+
+    <div class="container">
+        <div class="alert alert-2">
+         Alert
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="alert alert-3">
+         Alert
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="alert alert-4">
+            Alert
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="alert alert-5">
+            Alert
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="alert alert-6">
+            Alert
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="alert alert-7">
+            Alert
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="alert alert-8">
+            Alert
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="alert alert-1">
+             Alert with <a href="https://www.google.com/" class="alert-link">An Example Link</a>
+        </div>
+    </div>
+    
+    <div class = "container">
+        <div class="liveAlertPlaceholder">
+        <button type="button" class="btn btn-primary">Show live alert</button>
+        </div>
+    </div>
+
+<div class="container">
+    <div class="alert alert-1 align-item-center">
+        <i class="fas fa-exclamation-triangle"></i>
+        <div>
+            An example alert with an icon
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="alert alert-warning">
+        <button class="alert-close" on-click="closeAlert()">
+            <i class="fas fa-window-close"></i>
+        </button>
+        Lorem ipsum dolor sit amet.
+    </div> 
+</div>
+
+<script>
+    function closeAlert()
+    {
+        var alertElement  = document.querySelector('.alert');
+        console.log(alertElement.style);
+        alertElement.style.display = "none";
+        console.log("close alert");
+    }
+</script>
+
+</body>
+</html>

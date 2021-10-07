@@ -1,0 +1,119 @@
+.container{
+    width: 980px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alert{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 4px;
+}
+
+.alert-1{
+    background-color:lightskyblue;
+}
+
+.alert-2{
+    background-color: #e9ecef;
+}
+
+.alert-3{
+    background-color:mediumspringgreen;
+}
+
+.alert-4{
+    background-color:rosybrown;
+}
+
+.alert-5{
+    background-color:peachpuff ;
+}
+
+.alert-6{
+    background-color:powderblue;
+}
+
+.alert-7{
+    background-color: #f8f9fa;
+}
+
+.alert-8{
+    background-color: #ced4da;
+}
+
+.alert-link{
+    font-family: bold;
+}
+
+.liveAlertPlaceholder{
+    padding: 30px 30px 30px 30px;
+    border-radius:5px;
+    background-color:white;
+    border: 1px solid gray;
+}
+
+.btn{
+    padding: 10px 10px 10px 10px;
+    background-color:rgba(0, 0, 255, 0.781);
+    margin: 0;
+    border-radius: 4px;
+    color:white;
+}
+
+.align-item-center{
+    display: inline-block;
+}
+
+.badge{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    background-color: #ced4da;
+}
+
+.bg-primary{
+    background-color: cornflowerblue;
+}
+
+.bg-secondary{
+    background-color: gray;
+}
+
+.bg-success{
+    background-color: green;
+}
+
+.bg-danger{
+    background-color: red;
+}
+
+.bg-warning{
+    background-color: yellow;
+}
+
+.bg-info{
+    background-color: blue;
+}
+
+.bg-light{
+    background-color: whitesmoke;
+}
+
+.bg-dark{
+    background-color:black;
+}
+
+.text-light{
+    color:white;
+}
+
+.rounded-pill{
+    border-radius: 14px;
+}
