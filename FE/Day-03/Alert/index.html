@@ -7,8 +7,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/app.css">
+    <script src="./assets/js/app.js"></script>
 </head>
 <body>
+
+    <div class="container">   
+        <div class="alert alert-warning">
+        <button class ="alert-close" onclick="closeAlert()">
+            <i class="far fa-window-close"></i>
+        </button>
+        Close
+        </div>
+            </div>
+            
     <div class="container">
 <div class="alert alert-primary">
     A simple primary alert—check it out!
@@ -59,7 +70,7 @@
 
     <div class="container">
         <div class="liveAlert">
-<button type="button" class="btn btn-primary">
+<button type="button" class="btn btn-primary" onclick="showLive()">
     Show live alert
 </button>
         </div>
@@ -150,6 +161,14 @@
         </div>
     </div>
 
+    <div class="container">   
+<div class="alert alert-warning">
+<button class ="alert-close" onclick="closeAlert()">
+    <i class="far fa-window-close"></i>
+</button>
+Close
+</div>
+    </div>
     
 </body>
 </html>

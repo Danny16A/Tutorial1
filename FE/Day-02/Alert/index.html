@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./assets/css/app.css">
 </head>
 <body>
+
+
+
     <div>
         <h2 class="title"></h2>
         <p>lorem</p>
@@ -77,6 +80,9 @@
         <div class="alert alert-1">
              Alert with <a href="https://www.google.com/" class="alert-link">An Example Link</a>
         </div>
+        <div class="alert alert-1">
+             Alert with <a href="#" class="alert-link">An Example Link</a>
+        </div>
     </div>
     
     <div class = "container">
@@ -87,31 +93,48 @@
 
 <div class="container">
     <div class="alert alert-1 align-item-center">
-        <i class="fas fa-exclamation-triangle"></i>
-        <div>
-            An example alert with an icon
-        </div>
+            <i class="fas fa-exclamation-triangle"></i>
+            <span>
+                An example alert with an icon 1
+            </span>
     </div>
 </div>
 
+
 <div class="container">
     <div class="alert alert-warning">
-        <button class="alert-close" on-click="closeAlert()">
+        <button class="alert-close" onclick="closeAlert()">
             <i class="fas fa-window-close"></i>
         </button>
-        Lorem ipsum dolor sit amet.
+        Lorem ipsum dolor sit amet. 1
+    </div> 
+</div>
+<div class="container">
+    <div class="alert alert-warning">
+        <button class="alert-close" onclick="closeAlert()">
+            <i class="fas fa-window-close"></i>
+        </button>
+        Lorem ipsum dolor sit amet. 2
     </div> 
 </div>
 
-<script>
-    function closeAlert()
-    {
-        var alertElement  = document.querySelector('.alert');
-        console.log(alertElement.style);
-        alertElement.style.display = "none";
-        console.log("close alert");
-    }
-</script>
+<div>
+    <form action="">
+        <input type="text">
+        <button>Submit</button>
+    </form>
+</div>
+<div class="container">
+
+    <button onclick="addAlertItem()">Add item</button>
+    <div class="alert-list">
+      
+    </div>
+  
+
+</div>
+
+<script src="./assets/js/app.js"></script>
 
 </body>
 </html>

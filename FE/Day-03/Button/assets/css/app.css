@@ -95,6 +95,7 @@
     border-radius: 4px;
     position: relative;
     border-width: 0;
+    cursor: pointer;
 }
 
 .btn-primary{
@@ -254,7 +255,8 @@
     right: -22px;
 }
 
-.round-circle{
+.rounded-circle{
+    display: inline-block;
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -330,7 +332,7 @@
 }
 
 .btn-lg{
-
+font-size: 40px;
 }
 
 .btn-sm{
@@ -347,7 +349,7 @@
     background-color: tomato;
     position: relative;
     left: 300px;
-    
+
 }
 
 .img{
