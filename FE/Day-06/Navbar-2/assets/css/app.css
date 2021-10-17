@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #212529;
+    --bs-body-bg: #fff;
+  }
+  
+  body {
+    margin: 0;
+    font-size: var(--bs-body-font-size);
+    font-family: var(--bs-font-sans-serif);
+    font-weight: var(--bs-body-font-weight);
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    background-color: #E3E3E3;
+  }
+  
+  hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 0.25;
+  }
+  
+  .container {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 0.5px #E3E3E3;
+    padding-bottom: 15px;
+    background-color: white;
+  }
+
+  .navbar{
+    box-shadow: 0px 1px 20px 0px gray;
+    padding-bottom: 25px;
+    background-color: white;
+  }
+
+  .box{
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .header{
+    font-size: calc(1.275rem + 0.3vw) !important;
+    text-align: center;
+  }
+
+  .list-item{
+      padding: 0.5rem 1rem;
+      color: #0D6EFD;
+  }
+
+  li{
+      list-style: none;
+  }
+
+  .btn{
+      background-color: #0D6EFD;
+      padding: 8px 16px;
+      color: white;
+      border: 0;
+      border-radius: 4px;
+      font-size: 15px;
+      margin: 0;
+  }
+
+  .box-middle{
+      padding-top: 18px;
+      display: flex;
+      justify-content: center;
+      padding-bottom: 18px;
+  }
+
+  .space-between{
+      height: 50px;
+  }
+
+.text-faded{
+    color: #E3E3E3;
+}
+
+.text-black{
+    color: #212529; 
+}
+
+.btn-secondary{
+    padding: 6px 12px;
+    color: #0D6EFD;
+    background-color: white;
+    border-color: #0D6EFD;
+    border-radius: 5px;
+    border: solid 0.5px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.btn{
+    padding: 6px 12px;
+    background-color: #0D6EFD;
+    color: white;
+    border-color: #0D6EFD;
+    border-radius: 5px;
+    border: solid 0.5px #0D6EFD;
+    font-size: 15px;
+}
