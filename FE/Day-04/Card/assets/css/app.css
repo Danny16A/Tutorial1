@@ -23,8 +23,11 @@ font-family: var(--bs-body-font-family);
 }
 
 .box{
-    width: 200px;
-    padding: 80px;
+    width: 250px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 50px;
+    padding-left: 50px;
     text-align: center;
     box-shadow: 5px 20px 15px 1px gray;
 }
