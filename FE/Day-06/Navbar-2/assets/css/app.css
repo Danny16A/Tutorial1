@@ -43,6 +43,7 @@ hr {
     border-bottom: solid 0.5px #E3E3E3;
     padding-bottom: 16px;
     background-color: white;
+    flex-direction: row;
 }
 
 .navbar {
@@ -55,10 +56,12 @@ hr {
 
 }
 
-.box {
+.nav-object {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .header {
@@ -104,16 +107,6 @@ li {
     color: #212529;
 }
 
-.btn-secondary {
-    padding: 6px 12px;
-    color: #0D6EFD;
-    background-color: white;
-    border-color: #0D6EFD;
-    border-radius: 5px;
-    border: solid 0.5px;
-    font-size: 15px;
-    margin-right: 10px;
-}
 
 .btn {
     padding: 6px 12px;
@@ -222,3 +215,81 @@ a{
     box-shadow: none;
 }
 
+.center{
+    
+}
+
+a{
+    align-items: center;
+    text-align: center;
+}
+
+.no-padding{
+    padding-bottom: 0;
+}
+
+.d-block{
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar-link{
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-icon{
+    text-align: center;
+    align-items: center;
+}
+
+.navlist{
+    text-align: center;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+@media (max-width: 1920px){
+body{
+    font-size: 16px !important;
+}
+
+.container{
+width: 80%;
+}
+}
+
+@media (max-width: 700px){
+    body{
+        font-size: 14px !important;
+    }
+    
+    .container{
+    width: 50%;
+    }
+
+    .nav-object{
+        width: 30%;
+    }
+}
+
+.active{
+    cursor: pointer;
+}
+
+.dropdown-menu{
+    display: none;
+    width: 200px;
+    position: absolute;
+    color: white;
+}
+
+.dropdown-menu.show{
+    display: block;
+}
+
+.dropdown{
+    position: relative;
+}

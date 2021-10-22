@@ -7,29 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+    <script src="./assets/js/app.js"></script>
     <title>Document</title>
 </head>
 
 <body>
     <div class="navbar">
         <div class="container">
-            <div class="box">
+            <div class="nav-object">
+
                 <img src="./assets/image/icon2.PNG">
+
                 <span class="header">Simple header</span>
             </div>
-            <div class="box">
-                <button class="btn btn-primary">Home</button>
+            <div class="nav-object">
+                <button class="btn btn-primary active">Home</button>
                 <ul class="list">
-                    <li class="list-item">Features</li>
+                    <a href="#">
+                        <li class="list-item">Features</li>
+                    </a>
                 </ul>
                 <ul class="list">
-                    <li class="list-item">Pricing</li>
+                    <a href="#">
+                        <li class="list-item">Pricing</li>
+                    </a>
                 </ul>
                 <ul class="list">
-                    <li class="list-item">FAQs</li>
+                    <a href="#">
+                        <li class="list-item">FAQs</li>
+                    </a>
                 </ul>
                 <ul class="list">
-                    <li class="list-item">About</li>
+                    <a href="#">
+                        <li class="list-item">About</li>
+                    </a>
                 </ul>
             </div>
 
@@ -41,17 +52,23 @@
     </div>
 
     <div class="navbar box-middle">
-        <div class="box">
-            <button class="btn">Home</button>
-            <ul class="list">
-                <li class="list-item">Features</li>
-            </ul>
-            <ul class="list">
-                <li class="list-item">Pricing</li>
-            </ul>
-            <ul class="list">
-                <li class="list-item">FAQs</li>
-            </ul>
+        <div class="nav-object">
+            <button class="btn active">Home</button>
+            <a href="#">
+                <ul class="list">
+                    <li class="list-item">Features</li>
+                </ul>
+            </a>
+            <a href="#">
+                <ul class="list">
+                    <li class="list-item">Pricing</li>
+                </ul>
+            </a>
+            <a href="#">
+                <ul class="list">
+                    <li class="list-item">FAQs</li>
+                </ul>
+            </a>
             <ul class="list">
                 <li class="list-item">About</li>
             </ul>
@@ -64,30 +81,40 @@
 
     <div class="navbar">
         <div class="container">
-            <div class="box">
+            <div class="nav-object">
                 <img src="./assets/image/icon2.PNG">
             </div>
-            <div class="box">
-                <ul class="list">
-                    <li class="list-item text-faded">Home</li>
-                </ul>
-                <ul class="list">
-                    <li class="list-item text-black">Features</li>
-                </ul>
-                <ul class="list">
-                    <li class="list-item text-black">Pricing</li>
-                </ul>
-                <ul class="list">
-                    <li class="list-item text-black">FAQs</li>
-                </ul>
-                <ul class="list">
-                    <li class="list-item text-black">About</li>
-                </ul>
+            <div class="nav-object">
+                <a href="#">
+                    <ul class="list">
+                        <li class="list-item text-faded">Home</li>
+                    </ul>
+                </a>
+                <a href="#">
+                    <ul class="list">
+                        <li class="list-item text-black">Features</li>
+                    </ul>
+                </a>
+                <a href="#">
+                    <ul class="list">
+                        <li class="list-item text-black">Pricing</li>
+                    </ul>
+                </a>
+                <a href="#">
+                    <ul class="list">
+                        <li class="list-item text-black">FAQs</li>
+                    </ul>
+                </a>
+                <a href="#">
+                    <ul class="list">
+                        <li class="list-item text-black">About</li>
+                    </ul>
+                </a>
             </div>
 
-            <div class="box">
-                <button class="btn-secondary">Login</button>
-                <button class="btn">Sign-up</button>
+            <div class="nav-object">
+                <button class="btn-secondary active">Login</button>
+                <button class="btn active">Sign-up</button>
             </div>
         </div>
     </div>
@@ -98,28 +125,38 @@
 
     <div class="navbar bg-black">
         <div class="container bg-black container-black">
-            <div class="box">
+            <div class="nav-object">
                 <img src="./assets/image/icon.PNG">
-                <ul class="list">
-                    <li class="list-item text-faded">Home</li>
-                </ul>
-                <ul class="list">
-                    <li class="list-item text-light">Features</li>
-                </ul>
-                <ul class="list">
-                    <li class="list-item text-light">Pricing</li>
-                </ul>
-                <ul class="list">
-                    <li class="list-item text-light">FAQs</li>
-                </ul>
-                <ul class="list">
-                    <li class="list-item text-light">About</li>
-                </ul>
+                <a href="#">
+                    <ul class="list">
+                        <li class="list-item text-faded">Home</li>
+                    </ul>
+                </a>
+                <a href="#">
+                    <ul class="list">
+                        <li class="list-item text-light">Features</li>
+                    </ul>
+                </a>
+                <a href="#">
+                    <ul class="list">
+                        <li class="list-item text-light">Pricing</li>
+                    </ul>
+                </a>
+                <a href="#">
+                    <ul class="list">
+                        <li class="list-item text-light">FAQs</li>
+                    </ul>
+                </a>
+                <a href="#">
+                    <ul class="list">
+                        <li class="list-item text-light">About</li>
+                    </ul>
+                </a>
             </div>
-            <div class="box">
+            <div class="nav-object">
                 <input type="text" placeholder="Search..." class="input">
-                <button class="btn-secondary bg-black text-light">Login</button>
-                <button class="btn-secondary btn-warning">Sign-up</button>
+                <button class="btn-secondary bg-black text-light active">Login</button>
+                <button class="btn-secondary btn-warning active">Sign-up</button>
             </div>
         </div>
     </div>
@@ -130,23 +167,31 @@
 
     <div class="navbar">
         <div class="container">
-            <div class="box">
+            <div class="nav-object">
                 <img src="./assets/image/icon2.PNG" alt="">
-                <ul class="list">
-                    <li class="list-item text-faded">Overview</li>
-                </ul>
-                <ul class="list">
-                    <li class="list-item text-black">Inventory</li>
-                </ul>
-                <ul class="list">
-                    <li class="list-item text-black">Customers</li>
-                </ul>
-                <ul class="list">
-                    <li class="list-item text-black">Products</li>
-                </ul>
+                <a href="#">
+                    <ul class="list">
+                        <li class="list-item text-faded">Overview</li>
+                    </ul>
+                </a>
+                <a href="#">
+                    <ul class="list">
+                        <li class="list-item text-black">Inventory</li>
+                    </ul>
+                </a>
+                <a href="#">
+                    <ul class="list">
+                        <li class="list-item text-black">Customers</li>
+                    </ul>
+                </a>
+                <a href="#">
+                    <ul class="list">
+                        <li class="list-item text-black">Products</li>
+                    </ul>
+                </a>
             </div>
 
-            <div class="box">
+            <div class="nav-object">
                 <input type="text" placeholder="Search..." class="input-light">
                 <img src="./assets/image/pro5pic.PNG" alt="">
                 <i class="fas fa-caret-down"></i>
@@ -160,16 +205,24 @@
 
     <div class="navbar">
         <div class="container margin-full">
-            <div class="box">
+            <div class="nav-object">
                 <a href="#">
                     <img src="./assets/image/icon2.PNG" alt="">
-                    <i class="fas fa-caret-down"></i>
                 </a>
+                <i class="fas fa-caret-down"></i>
             </div>
-            <div class="box">
+            <div class="nav-object">
                 <input type="text" placeholder="Search..." class="input-light input-length">
                 <img src="./assets/image/pro5pic.PNG" alt="">
-                <i class="fas fa-caret-down"></i>
+                <div class="dropdown">
+                <i class="fas fa-caret-down active" onclick="showDropdown()"></i>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-item">item1</li>
+                    <li class="dropdown-item">item2</li>
+                    <li class="dropdown-item">item3</li>
+                    <li class="dropdown-item">item4</li>
+                </ul>
+            </div>
             </div>
         </div>
         <div class="container margin-full no-border">
@@ -187,42 +240,54 @@
 
     <div class="navbar bg-faded">
         <div class="container bg-faded">
-            <div class="box">
+            <div class="nav-object">
                 <ul class="list">
                     <li class="list-item text-black">
                         <a href="#" class="text-black">Home</a>
                     </li>
                 </ul>
-                <ul class="list">
-                    <li class="list-item text-black">Features</li>
-                </ul>
-                <ul class="list">
-                    <li class="list-item text-black">Pricing</li>
-                </ul>
-                <ul class="list">
-                    <li class="list-item text-black">FAQs</li>
-                </ul>
-                <ul class="list">
-                    <li class="list-item text-black">About</li>
-                </ul>
+                <a href="#">
+                    <ul class="list">
+                        <li class="list-item text-black">Features</li>
+                    </ul>
+                </a>
+                <a href="#">
+                    <ul class="list">
+                        <li class="list-item text-black">Pricing</li>
+                    </ul>
+                </a>
+                <a href="#">
+                    <ul class="list">
+                        <li class="list-item text-black">FAQs</li>
+                    </ul>
+                </a>
+                <a href="#">
+                    <ul class="list">
+                        <li class="list-item text-black">About</li>
+                    </ul>
+                </a>
             </div>
 
-            <div class="box">
-                <ul class="list">
-                    <li class="list-item text-black">Login</li>
-                </ul>
-                <ul class="list">
-                    <li class="list-item text-black">Sign up</li>
-                </ul>
+            <div class="nav-object">
+                <a href="#">
+                    <ul class="list">
+                        <li class="list-item text-black">Login</li>
+                    </ul>
+                </a>
+                <a href="#">
+                    <ul class="list">
+                        <li class="list-item text-black">Sign up</li>
+                    </ul>
+                </a>
             </div>
         </div>
         <div class="navbar no-shadow">
             <div class="container">
-                <div class="box">
+                <div class="nav-object">
                     <img src="./assets/image/icon2.PNG" alt="">
                     <span class="header">Double header</span>
                 </div>
-                <div class="box">
+                <div class="nav-object">
                     <input type="text" placeholder="Search..." class="input-light">
                 </div>
             </div>
@@ -232,16 +297,67 @@
 
         </div>
 
-        <div class="navbar bg-black" style="padding-bottom: 10px;">
-            <div class="container bg-black no-border" style="padding-bottom: 0; margin-bottom: 0;">
-                <div class="box">
+        <div class="navbar bg-black">
+            <div class="container bg-black no-border no-padding">
+                <div class="nav-object">
                     <img src="./assets/image/icon.PNG" alt="">
                 </div>
-                <div class="box">
-
+                <div class="nav-object">
+                    <ul class="navlist">
+                        <li class="navbar-item">
+                            <a href="" class="navbar-link">
+                                <img src="./assets/image/home.PNG" alt="" class="nav-icon">
+                                <span class="d-block">Home</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navlist">
+                        <li class="navbar-item">
+                            <a href="" class="navbar-link">
+                                <img src="./assets/image/Dashboard.PNG" alt="" class="nav-icon">
+                                <span class="d-block">Dashboard</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navlist">
+                        <li class="navbar-item">
+                            <a href="" class="navbar-link">
+                                <img src="./assets/image/calendar.PNG" alt="" class="nav-icon">
+                                <span class="d-block">Orders</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navlist">
+                        <li class="navbar-item">
+                            <a href="" class="navbar-link">
+                                <img src="./assets/image/product.PNG" alt="" class="nav-icon">
+                                <span class="d-block">Products</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navlist">
+                        <li class="navbar-item">
+                            <a href="" class="navbar-link">
+                                <img src="./assets/image/Customer.PNG" alt="" class="nav-icon">
+                                <span class="d-block">Customers</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
+        <div class="navbar">
+            <div class="container">
+                <div class="nav-object">
+                    <input type="text" placeholder="Search..." class="input-light">
+                </div>
+                <div class="nav-object">
+                    <button class="btn-secondary active">Login</button>
+                    <button class="btn active">Sign-up</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
