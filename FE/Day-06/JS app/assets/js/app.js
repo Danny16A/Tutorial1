@@ -79,8 +79,8 @@ function Ex3() {
 
 function Ex4() {
     var elementResult = document.querySelector("#ex-4");
-    var elementInput1 = document.querySelector("#input-number-1");
-    var elementInput2 = document.querySelector("#input-number-2");
+    var elementInput1 = document.querySelector("#input-number-3");
+    var elementInput2 = document.querySelector("#input-number-4");
     var number1 = elementInput1.value;
     var number2 = elementInput2.value;
 
