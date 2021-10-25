@@ -113,7 +113,6 @@ hr {
 .col-4 {
   flex: 0 0 auto;
   width: 33.33333333%;
-  border: 1px solid black;
 }
 
 .col-5 {
@@ -334,4 +333,44 @@ p{
 
 .text-light{
   color: white;
+}
+
+.d-flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.custom-card-img{
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 20px 3px gray;
+  margin-top: 50px;
+}
+
+.mg-l-5{
+  margin-left: 50px;
+}
+
+.mg-r-5{
+  margin-right: 50px;
+}
+
+.mg-l-1{
+  margin-left: 10px;
+}
+
+.mg-r-1{
+  margin-right: 10px;
+}
+
+.mg{
+  margin: 10px;
+}
+
+.small-container{
+  width: 1280px;
+}
+
+.mg-b-5{
+  margin-bottom: 50px;
 }
