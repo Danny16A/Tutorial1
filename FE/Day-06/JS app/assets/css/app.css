@@ -26,38 +26,44 @@ body {
     background-color: #E3E3E3;
 }
 
-.container{
+.container {
     width: 80%;
     background-color: white;
     margin: 0 auto;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-    border: solid 0.5px #212529; 
+    border: solid 0.5px #212529;
 }
 
-.ex-1{
+.ex-1 {
     display: none;
     color: red;
 }
 
-.ex-1.show{
+.ex-1.show {
     display: inline;
 }
 
-.space-between{
+.space-between {
     height: 50px;
 }
 
-p{
+p {
     text-align: center;
 }
 
-.btn{
+.btn {
     padding: 10px;
 }
 
-.input{
+.input {
     padding: 10px;
     margin: 10px;
 }
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+

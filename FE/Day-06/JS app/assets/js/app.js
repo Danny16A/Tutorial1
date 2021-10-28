@@ -58,7 +58,7 @@ function Ex3() {
 
     var resultString = "";
 
-    var numSum = number1 + number2;
+    var numSum = parseInt(number1) + parseInt(number2);
     var numMinus = number1 - number2;
     var numMul = number1 * number2;
 
@@ -86,15 +86,81 @@ function Ex4() {
 
     var resultString = "";
 
-    if (number1 > number2) {
+    if (parseInt(number1) > parseInt(number2)) {
         resultString = number1 + " > " + number2;
     }
-    else if (number1 < number2) {
+    else if (parseInt(number1) < parseInt(number2)) {
         resultString = number1 + " < " + number2;
     }
     else {
         resultString = number1 + "=" + number2;
     }
 
+    elementResult.innerHTML = resultString;
+}
+
+function Ex5(){
+    var elementResult = document.querySelector("#ex-5");
+    var elementInput1 = document.querySelector("#input-number-5");
+    var elementInput2 = document.querySelector("#input-number-6");
+    var elementInput3 = document.querySelector("#input-number-7");
+    var elementInput4 = document.querySelector("#input-number-8");
+    var number1 = elementInput1.value;
+    var number2 = elementInput2.value;
+    var number3 = elementInput3.value;
+    var number4 = elementInput4.value;
+
+    var resultString = "";
+
+    var maxNumber = 0;
+
+    if (parseInt(number1) > parseInt(number2))
+    {
+        maxNumber = parseInt(number1);
+    }
+    else {
+        maxNumber = parseInt(number2);
+    }
+
+    if (maxNumber > parseInt(number3))
+    {
+        maxNumber = maxNumber;
+    }
+    else{
+        maxNumber = parseInt(number3);
+    }
+
+    if (maxNumber > parseInt(number4))
+    {
+        maxNumber = maxNumber;
+    }
+    else{
+        maxNumber = parseInt(number4);
+    }
+
+    if (parseInt(number1) == parseInt(number2) && parseInt(number2) == parseInt(number3) && parseInt(number3) == parseInt(number4)){
+        resultString = "They are all equal";
+    }
+    else{
+        resultString = "The largest number is " + maxNumber;
+    }
+
+    elementResult.innerHTML = resultString;
+}
+
+function Ex6(){
+    var elementResult = document.querySelector("#ex-6");
+    var elementInput1 = document.querySelector("#input-width");
+    var elementInput2 = document.querySelector("#input-height");
+    var width = elementInput1.value;
+    var height = elementInput2.value;
+
+    var resultString = "";
+
+    var perimeter = (parseInt(width) + parseInt(height)) * 2;
+    var area = parseInt(width) * parseInt(height);
+
+    resultString = "The P is " + perimeter + " and S is " + area;
+    console.log(perimeter);
     elementResult.innerHTML = resultString;
 }
