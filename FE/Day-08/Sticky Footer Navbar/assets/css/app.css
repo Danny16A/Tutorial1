@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #212529;
+    --bs-body-bg: white;
+}
+
+body {
+    margin: 0;
+    font-size: var(--bs-body-font-size);
+    font-family: var(--bs-font-sans-serif);
+    font-weight: var(--bs-body-font-weight);
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 0.25;
+}
+
+.container {
+    width: 70%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+}
+
+.footer-container{
+    width: 70%;
+    max-width: 680px;
+    padding: 0 15px;
+    background-color: #F8F9FA;
+    height: 60px;
+    color: gray;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.big-container{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background-color: #F8F9FA;
+}
+
+.position-fixed{
+    bottom: 0;
+    position: fixed;
+}
+
+.header{
+    padding-top: 100px;
+    padding-bottom: 0.5rem;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.paragraph{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.mg-top-5{
+    margin-top: 0.5rem;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.align-center{
+    vertical-align: middle;
+    padding-top: 1.2rem;
+}
+
+.navbar-container{
+    width: 100%;
+    top: 0;
+    position: fixed;
+    background-color: #212529;
+    height: 60px;
+}
+
+.list-item {
+    padding: 0.5rem 1rem;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.small{
+    color: #D633A2;
+}
+
+.d-flex-2{
+    justify-content: center;
+}
