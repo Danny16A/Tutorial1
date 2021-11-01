@@ -7,48 +7,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/app.css">
+    <script src="./assets/js/app.js"></script>
 </head>
 
 <body>
-    <div class="d-flex navbar-container">
-    <div class="d-flex">
-        <ul class="list">
-            <a href="#">
+    <div class="d-flex navbar-container space-between">
+        <div class="nav-list">
+            <a href="#" class="nav-brand">
                 <li class="list-item">Fixed navbar</li>
             </a>
-        </ul>
-        <ul class="list">
-            <a href="#">
-                <li class="list-item">Home</li>
-            </a>
-        </ul>
-        <ul class="list">
-            <a href="#">
-                <li class="list-item">Link</li>
-            </a>
-        </ul>
-        <ul class="list">
-            <a href="#">
-                <li class="list-item">Disabled</li>
-            </a>
-        </ul>
+            <div class="navbar-nav">
+                <ul class="d-flex">
+                    <li class="list-item"><a href="#"></a>Home</li>
+                    <li class="list-item"><a href="#"></a>Link</li>
+                    <li class="list-item"><a href="#"></a>Disabled</li>
+                </ul>
+            </div>
+        </div>
+        <div class="d-flex">
+            <form action="" class="navbar-search">
+                <input type="text" class="form-control" placeholder="Search">
+                <button class="btn btn-ouline-sucess">Search</button>
+            </form>
+           <img src="./assets/image/Capture.PNG" class="navbar-toggler" onclick="toggle()">
+        </div>
     </div>
-    <div class="d-flex">
 
-    </div>
-</div>
+
     <div class="container">
         <h2 class="header">
             Sticky footer with fixed navbar
         </h2>
-        <span class="paragraph">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code class="small">padding-top: 60px;</code>  on the <code class="small">main > .container.</code> </span>
+        <span class="paragraph">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and
+            CSS. A fixed navbar has been added with <code class="small">padding-top: 60px;</code> on the <code
+                class="small">main > .container.</code> </span>
         <p class="mg-top-5">Back to <a href="#" class="link">the default sticky footer</a> minus the navbar.</p>
     </div>
     <div class="big-container d-flex-2 position-fixed">
         <div class="footer-container position-fixed">
             <p class="align-center">Place sticky footer content here.</p>
         </div>
-    </div>  
+    </div>
 </body>
-  
+
 </html>
