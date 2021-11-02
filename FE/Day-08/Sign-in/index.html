@@ -1,14 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./assets/js/app.js"></script>
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <div class="login-container mg-top text-center">
+        <img src="./assets/image/Capture.PNG" class="login-img" alt="">
+        <h3 class="login-header">Please sign in</h3>
+        <div class="alert-validate">
+            something
+        </div>
+        <form action="">
+            <div class="form-control">
+                <input type="text" class="login-input" name="email" style="margin-bottom: -1px;">
+                <label for="" class="login-label">Email address</label>
+            </div>
+            <div class="form-control mg-bt">
+                <input type="password" class="login-input" name="password">
+                <label for="" class="login-label">Password</label>
+            </div>
+            <div class="form-control-checkbox mg-bt-2">
+                <input type="checkbox" class="login-input">
+                <label for="" class="login-label">Remember me</label>
+            </div>
+            <button class="btn btn-primary" type="button" onclick="validateInput()">Sign in</button>
+            <div class="login-copyright">
+                <i class="far fa-copyright"></i>
+                <span>2017-2021</span>
+            </div>
+        </form>
+    </div>
 </body>
+
 </html>

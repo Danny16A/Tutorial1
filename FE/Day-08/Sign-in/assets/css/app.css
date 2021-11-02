@@ -1,3 +1,101 @@
-body{
+body {
+    display: flex;
     background-color: #F5F5F5;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 330px;
+    margin: auto;
+    padding: 15px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mg-top {
+    margin-top: 200px;
+}
+
+.login-img {
+    margin-bottom: 20px;
+}
+
+.login-header {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.form-control .login-input {
+    width: 100%;
+    padding: 1.4rem;
+    border-radius: 3px;
+    border: 1px solid #CED4D9;
+}
+
+.form-control .login-label {
+    position: absolute;
+    top: 18px;
+    left: 10px;
+}
+
+.form-control {
+    position: relative;
+}
+
+.form-control-checkbox {
+    margin: 0.5rem 0;
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mg-bt {
+    margin-bottom: 10px;
+}
+
+.mg-bt-2 {
+    margin-bottom: 15px;
+}
+
+.btn {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #0D6EFD;
+    border: 0px solid #0D6EFD;
+}
+
+.login-copyright {
+    color: #6C757D;
+}
+
+.form-control .login-input:focus~label.login-label {
+    position: absolute;
+    transform: scale(0.8);
+    left: 2px;
+    top: 2px;
+}
+
+.alert-validate{
+    display: none;
+    color: red;
+    margin-bottom: .5rem;
 }
