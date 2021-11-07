@@ -1,0 +1,17 @@
+.navbar{
+    background-color: rgb(33,37,41); 
+    min-height: 55px;
+}
+
+.navbar-content{
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
