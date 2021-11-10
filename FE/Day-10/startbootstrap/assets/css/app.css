@@ -1,0 +1,175 @@
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+    background-color: #2C3E51;
+    min-height: 100px;
+}
+
+.navbar .col-8{
+    margin: 0 auto;
+}
+
+.nav-heading{
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.list-item{
+    padding: 16px;
+    font-size: 16px;
+}
+
+.list-item a{
+    color: white;
+    font-weight: 700;
+}
+
+.list-item a:hover{
+    color: #3ABC9C;
+}
+
+.body{
+    background-color: #3ABC9C;
+    min-height: 700px;
+}
+
+.body-img{
+    width: 240px;
+}
+
+.body .col-4{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.custom-divider{
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider-line{
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    border-radius: 1rem;
+    background-color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.divider-icon{
+    height: 1.125rem;
+}
+
+.body-header{
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.body-content{
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    padding-top: 0.5rem;
+}
+
+.bg-dark{
+    background-color: #2C3E51;
+}
+
+.portfolio{
+    min-height: 800px;
+}
+
+.portfolio .col-4{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.port-img{
+    width: 400px;
+    border-radius: 0.5rem;
+}
+
+.portfolio .container{
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+}
+
+.portfolio-heading{
+    font-size: 48px;
+    margin-top: 5rem;
+}
+
+.about{
+    background-color: #3ABC9C;
+    min-height: 500px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.about .col-8{
+    margin: auto;
+    text-align: center;
+}
+
+.about-heading{
+    font-size: 48px;
+    color: white;
+}
+
+.about .col-7{
+    margin: auto;
+}
+
+.para{
+    color: white;
+    font-size: 1.25rem;
+}
+
+.left{
+    padding-left: 120px;
+}
+
+.right{
+    padding-right: 120px;
+}
+
+.col-7 .col-6{
+    height: 180px;
+}
+
+.text-white{
+    color: white;
+}
+
+.button{
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border: 2px solid white;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.space-between{
+    height: 40px;
+}
+
+.button:hover{
+    color: black;
+    background-color: white;
+}

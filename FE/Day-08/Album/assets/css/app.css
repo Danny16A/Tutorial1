@@ -34,7 +34,7 @@
 }
 
 .inside-content{
-    width: 50%;
+    width: 33.333333333%;
     margin: 0 auto;
     text-align: center;
 }
@@ -230,3 +230,16 @@
 .show-dropdown{
     display: flex;
 }
+
+@media (max-width: 768px){
+    .inside-content{
+        width: 50%;
+    }
+}
+
+@media (max-width: 576px){
+    .inside-content{
+        width: 83.333333333%;
+    }
+}
+
