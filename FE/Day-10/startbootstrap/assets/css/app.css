@@ -6,7 +6,28 @@
 
 .navbar{
     background-color: #2C3E51;
-    min-height: 100px;
+    min-height: 60px;
+    padding: 1.5rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.navbar-move{
+    padding: .5rem 0;
+    font-size: 1.4rem;
+}
+
+.nav-brand{
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.navbar-move .nav-brand{
+    font-size: 20px;
 }
 
 .navbar .col-8{
@@ -19,19 +40,7 @@
     font-weight: 700;
 }
 
-.list-item{
-    padding: 16px;
-    font-size: 16px;
-}
 
-.list-item a{
-    color: white;
-    font-weight: 700;
-}
-
-.list-item a:hover{
-    color: #3ABC9C;
-}
 
 .body{
     background-color: #3ABC9C;
@@ -172,4 +181,88 @@
 .button:hover{
     color: black;
     background-color: white;
+}
+
+.contact{
+    min-height: 700px;
+    padding-top: 50px;
+}
+
+.contact .col-6{
+    margin: auto;
+    text-align: center;
+}
+
+.contact-heading{
+    padding-top: 20px;
+    font-size: 48px;
+    color: #2C3E51;
+}
+
+.form{
+    padding-top: 30px;
+}
+
+.form-control .login-input {
+    width: 100%;
+    padding: 1.4rem;
+    border-radius: 3px;
+    border: 1px solid #CED4D9;
+    font-size: 20px;
+    border: none;
+}
+
+
+.navbar .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-brand{
+    flex: 1;
+}
+.nav-list{
+    display: block;
+    width: 100%;
+}
+.navbar-toolbar{
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.list-item{
+    padding: 16px 0;
+    font-size: 16px;
+}
+
+.list-item a{
+    color: white;
+    font-weight: 700;
+}
+
+.list-item a:hover{
+    color: #3ABC9C;
+}
+
+@media(min-width: 767px){
+    .navbar-toolbar{
+        display: none;
+    }
+
+    .nav-list{
+        display: flex;
+    }
+    .nav-brand{
+        flex: auto;
+    }
+
+    .nav-list{
+        width: auto;
+    }
+
+    .list-item{
+        padding: 0 16px;
+
+    }
 }
